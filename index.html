@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+<body>
+
+<main>
+  <section>
+    <div class="container">
+      <form class="form">
+       <div class="input-box">
+        <input type="search" placeholder="search" class="search " aria-label="search">
+        <ul class="list">
+          <div class="boxs d-none"></div>
+        </ul>
+       </div>
+      </form>
+<div class="box">
+
+</div>
+    </div>
+  </section>
+</main>
+
+<template class="movies-template">
+  <div class="muvies-box row">
+    <div class="col-6">
+    <div class="ms-5">
+      <a class="img-link " href="">
+        <img class="img-url" src="" alt="">
+      </a>
+    </div>
+    </div>
+    <div class="col-5">
+      <div class="result">
+       <div>
+        <h2 class="movies-title"></h2>
+        <div class="d-flex justify-content-between mt-5">
+         <div class="d-flex"><span>Year: </span> <p class="movies-year"></p></div>
+         <div class="d-flex borss"><span>Rayting: </span> <p class="movies-reiting"></p></div>
+         <div class="d-flex"><span>Released: </span> <p class="movies-released"></p></div>
+         
+        </div>
+        <div class="d-flex box-genre mt-4"><span>Genre: </span><p class="movies-genre"></p></div>
+        <div class="d-flex mt-4"><span>Writer: </span><p class="movies-writer"></p></div>
+        <div class="d-flex mt-4"><span>Actors: </span><p class="movies-actors"></p></div>
+      
+        <div class="d-flex mt-4">
+          <span>Plot: </span><p class="movies-plot"></p></div>
+          <div class="d-flex mt-4"><span>Language:</span><p class="movies-language"></p></div>
+          <div class="d-flex mt-4"><span><img width="20" src="./images/medal.png" alt="medal"></span><p class="movies-awards"></p></div>
+       </div>
+        <a class="movies-link" target="blank" href="">Vidio link</a>
+      </div>
+    </div>
+    </div>
+</template>
+  <script src="./main.js"></script>
+ 
+</body>
+</html>
